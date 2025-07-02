@@ -1,0 +1,52 @@
+ai_cse_college/
+│
+├── app/                        
+│   Contains the core backend logic of the project, including FastAPI app, routes, services, models, and more.
+
+│   ├── routes/                  
+│       Modular API route definitions for each feature (auth, chatbot, notes, career guidance, exams, etc).
+
+│   ├── services/                
+│       Main logic for LangChain agents, RAG pipelines, and prompt engineering templates.
+
+│   ├── models/                 
+│       LLM model config and setup
+
+│   ├── schemas/                
+│       Pydantic schemas for request/response data validation and serialization.
+
+│   ├── database/               
+│       DB connection, session handling, seed data, and Alembic migrations.
+
+│   ├── utils/                  
+│       Utility functions like auth token management, file helpers, logging, proctoring, etc.
+
+│   ├── langgraph/              
+│       LangGraph-based workflow logic for complex agent flows like subject Q&A, exam evaluation, etc.
+
+│   ├── main.py                
+│       The main FastAPI app entry point.
+
+│   ├── config.py              
+│       Application-wide configuration and environment variable loading.
+│
+├── prompts/                    
+│   Raw prompt templates used to guide the behavior of various AI agents (LLM prompts grouped by domain).
+
+├── data/                       
+│   Static markdown-based content such as subject notes, quizzes, roadmaps, and resumes.
+
+├── vectorstores/              
+│   Persistent directories to store vector indexes (e.g. Chroma, FAISS) for fast similarity search.
+
+├── frontend/                  
+│   Frontend codebase (placeholder folder for now).
+
+├── .env                       
+│   Environment variables for local development and deployment.
+
+├── requirements.txt           
+│   All Python package dependencies.
+
+├── README.md                 
+│   Project documentation, setup instructions, and usage guide.
