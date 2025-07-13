@@ -14,8 +14,7 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 ### 🎥 Demo / Tutorial:
 
-[Watch CSAcademy in action on YouTube →](https://www.youtube.com/watch?v=dummy-link)
-*(Note: The provided YouTube link is a placeholder, and no video information could be retrieved.)*
+[Watch CSAcademy in action on YouTube](https://youtu.be/4pDoL_SX6vg?feature=shared)
 
 ---
 
@@ -35,9 +34,9 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 💡 Full Platform Feature Overview
 
-<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/3e0ba9ed-f48f-445a-9889-81712734573c" />
-
 ### 1. 📅 Dashboard
+
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/3e0ba9ed-f48f-445a-9889-81712734573c" />
 
 The personalized dashboard helps students stay on top of their progress:
 
@@ -58,9 +57,9 @@ Displays upcoming scheduled events like:
 
 ---
 
-<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a3c34950-78b6-4666-a931-0c8fd55de727" />
-
 ### 2. 📚 Learn
+
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a3c34950-78b6-4666-a931-0c8fd55de727" />
 
 Access expertly curated notes (150–200 pages per subject)
 
@@ -76,9 +75,9 @@ Includes a notes assistant bot that:
 
 ---
 
-<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/ec6c899a-133e-4355-b8b1-cde8f60963b0" >
-
 ### 3. 🔹 FlashQuiz
+
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/ec6c899a-133e-4355-b8b1-cde8f60963b0" >
 
 Intelligent flashcards for rapid revision
 
@@ -88,11 +87,11 @@ Intelligent flashcards for rapid revision
 
 ---
 
+### 4. 🌟 Career Guidance
+
 <img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/89f2033b-49f6-4649-90c7-e334e87edc4b" />
 
 <img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/95c7c81b-5957-48cc-ad7d-c4385abf842b" />
-
-### 4. 🌟 Career Guidance
 
 A chat and workflow-based module that helps students discover and plan careers:
 
@@ -108,9 +107,9 @@ A chat and workflow-based module that helps students discover and plan careers:
 
 ---
 
-<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/fc53f32c-74ba-4013-ac45-706739882a8c" />
-
 ### 5. 🙏 Personal Support
+
+<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/fc53f32c-74ba-4013-ac45-706739882a8c" />
 
 A dedicated personal and emotional support bot
 
@@ -126,11 +125,11 @@ Acts like a brutally honest friend or elder
 
 ---
 
+### 6. 💼 Placement Prep
+
 ![WhatsApp Image 2025-07-13 at 11 26 40_b365e1c7](https://github.com/user-attachments/assets/bc99cdb6-4968-443c-9b15-140ea98bfc06)
 
 ![WhatsApp Image 2025-07-13 at 11 26 53_c7bb6775](https://github.com/user-attachments/assets/410b7bd7-24d8-4350-9033-b0d12446bc95)
-
-### 6. 💼 Placement Prep
 
 A full-stack dashboard for placement readiness:
 
@@ -145,9 +144,9 @@ A full-stack dashboard for placement readiness:
 
 ---
 
-<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/e92bbcbb-3772-473b-abae-57bb459713e1" />
-
 ### 7. ✍️ Exams
+
+<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/e92bbcbb-3772-473b-abae-57bb459713e1" />
 
 Simulated examination module:
 
@@ -161,6 +160,8 @@ Simulated examination module:
 ---
 
 ### 8. 📈 Placements
+
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/54fc5f9f-8fd1-4328-960c-ace0596a90ff" />
 
 Job discovery and application management section:
 
