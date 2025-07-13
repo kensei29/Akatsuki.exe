@@ -56,9 +56,9 @@ Displays upcoming scheduled events like:
 * Exams
 * Workshops
 
-<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a3c34950-78b6-4666-a931-0c8fd55de727" />
-
 ---
+
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a3c34950-78b6-4666-a931-0c8fd55de727" />
 
 ### 2. 📚 Learn
 
@@ -74,9 +74,9 @@ Includes a notes assistant bot that:
 * Saves question-answer pairs into personal notes
 * Allows manual editing and formatting
 
-<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/ec6c899a-133e-4355-b8b1-cde8f60963b0" />
-
 ---
+
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/ec6c899a-133e-4355-b8b1-cde8f60963b0" >
 
 ### 3. 🔹 FlashQuiz
 
@@ -86,11 +86,11 @@ Intelligent flashcards for rapid revision
 * Options + answer explanation that builds intuition
 * Tracks quiz progress and mastery level
 
+---
+
 <img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/89f2033b-49f6-4649-90c7-e334e87edc4b" />
 
 <img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/95c7c81b-5957-48cc-ad7d-c4385abf842b" />
-
----
 
 ### 4. 🌟 Career Guidance
 
@@ -106,9 +106,9 @@ A chat and workflow-based module that helps students discover and plan careers:
     * PDF 1: Flowchart using Mermaid.js (can be visualized in draw.io)
     * PDF 2: Step-by-step roadmap with tools, timelines, and milestones
 
-<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/fc53f32c-74ba-4013-ac45-706739882a8c" />
-
 ---
+
+<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/fc53f32c-74ba-4013-ac45-706739882a8c" />
 
 ### 5. 🙏 Personal Support
 
@@ -124,11 +124,11 @@ Helps with:
 
 Acts like a brutally honest friend or elder
 
+---
+
 ![WhatsApp Image 2025-07-13 at 11 26 40_b365e1c7](https://github.com/user-attachments/assets/bc99cdb6-4968-443c-9b15-140ea98bfc06)
 
 ![WhatsApp Image 2025-07-13 at 11 26 53_c7bb6775](https://github.com/user-attachments/assets/410b7bd7-24d8-4350-9033-b0d12446bc95)
-
----
 
 ### 6. 💼 Placement Prep
 
@@ -143,9 +143,9 @@ A full-stack dashboard for placement readiness:
 
 ![WhatsApp Image 2025-07-13 at 11 27 25_f88e3a32](https://github.com/user-attachments/assets/99046d35-b2a2-4fce-975f-36f6b66907c7)
 
-<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/e92bbcbb-3772-473b-abae-57bb459713e1" />
-
 ---
+
+<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/e92bbcbb-3772-473b-abae-57bb459713e1" />
 
 ### 7. ✍️ Exams
 
