@@ -1,2 +1,8 @@
 .env
 Schema_explanation.txt
+frontend/node_modules
+career_page/.env
+frontend/.bolt
+frontend.zip
+__pycache__/
+*.py[cod]
