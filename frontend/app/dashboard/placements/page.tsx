@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import DashboardLayout from "@/components/layout/DashboardLayout";
 import {
     Card,
@@ -9,6 +11,15 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
 import {
     Building2,
     MapPin,
@@ -28,17 +39,6 @@ import {
     FileText,
     Video,
 } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 const jobListings = [
     {
@@ -274,7 +274,7 @@ export default function PlacementsHub() {
             );
         }
 
-        if (selectedLocation) {
+        if (selectedLocation && selectedLocation !== "all") {
             filtered = filtered.filter((job) =>
                 job.location
                     .toLowerCase()
@@ -282,13 +282,13 @@ export default function PlacementsHub() {
             );
         }
 
-        if (selectedExperience) {
+        if (selectedExperience && selectedExperience !== "all") {
             filtered = filtered.filter(
                 (job) => job.experience === selectedExperience
             );
         }
 
-        if (selectedType) {
+        if (selectedType && selectedType !== "all") {
             filtered = filtered.filter((job) => job.type === selectedType);
         }
 
@@ -470,7 +470,7 @@ export default function PlacementsHub() {
                                             <SelectValue placeholder="Location" />
                                         </SelectTrigger>
                                         <SelectContent>
-                                            <SelectItem value="">
+                                            <SelectItem value="all">
                                                 All Locations
                                             </SelectItem>
                                             <SelectItem value="remote">
@@ -499,7 +499,7 @@ export default function PlacementsHub() {
                                             <SelectValue placeholder="Experience" />
                                         </SelectTrigger>
                                         <SelectContent>
-                                            <SelectItem value="">
+                                            <SelectItem value="all">
                                                 All Levels
                                             </SelectItem>
                                             <SelectItem value="Entry Level">
@@ -522,7 +522,7 @@ export default function PlacementsHub() {
                                             <SelectValue placeholder="Job Type" />
                                         </SelectTrigger>
                                         <SelectContent>
-                                            <SelectItem value="">
+                                            <SelectItem value="all">
                                                 All Types
                                             </SelectItem>
                                             <SelectItem value="Full-time">
