@@ -8,7 +8,7 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 * **Vedant Patel** [LinkedIn →](https://www.linkedin.com/in/vedant-patel-machine-learning/)
 * **Rudra Narola** [LinkedIn →](https://www.linkedin.com/in/rudranarola/)
-* **Team Member 3** [LinkedIn →](https://www.linkedin.com/in/prit-shah-b1b58a286/)
+* **Prit Shah** [LinkedIn →](https://www.linkedin.com/in/prit-shah-b1b58a286/)
 
 ---
 
