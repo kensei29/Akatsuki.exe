@@ -30,135 +30,219 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 ---
 
-## 🌟 Project Overview
+💡 Full Platform Feature Overview
 
-**CSAcademy** is a full-stack AI-first platform crafted exclusively for **Computer Science students** to:
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/3e0ba9ed-f48f-445a-9889-81712734573c" />
 
-* Learn core subjects deeply
-* Get AI-powered, honest career advice
-* Discover future career domains
-* Prepare for placements and exams
-* Get mentorship for emotional & personal struggles
+1. 📅 Dashboard
 
-All packed into a **single intelligent assistant-led platform**.
+The personalized dashboard helps students stay on top of their progress:
 
-<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/012c9653-a90e-4d36-a9b2-ec64ffef54cc" />
+Tracks:
 
----
+Notes Completed (e.g., 42/60)
 
-## 📚 Core Features (Detailed Breakdown)
+Quizzes Taken (e.g., 28/35)
 
-### 1. 🤖 ChatGPT-style Assistant
+Roadmap Progress (e.g., 15/25 milestones)
 
-* Powered by **Mistral 7B with web search tool access**
-* Understands **career queries, learning doubts, life advice, and tech topics**
-* Gives **brutally honest, up-to-date answers**
-* Maintains **chat memory with summary** for context continuity
-* Works like your 24/7 mentor
+Streak Days (e.g., 12/30)
 
----
+Shows recent learning activity
 
-### 2. 💡 Career Discovery Workflow (LangGraph)
+Displays upcoming scheduled events like:
 
-#### Triggered by: "Find your best career domain" button
+Mock Interviews
 
-* Uses **LangGraph + HITL (human in the loop)** structure
-* Step 1: LLM fetches **real-time trending domains** (via web search)
-* Step 2: User selects a domain (cards shown in UI)
-* Step 3: LLM does **deep research on skills, tools, jobs, salaries, future scope**
-* Step 4: User clicks "Generate Roadmap"
-* Step 5: Two PDFs are generated:
+Exams
 
-  * 🖇 Flowchart (Mermaid.js code → draw\.io → PDF)
-  * 📄 Written step-by-step roadmap (with weeks, tools, projects)
-* Output = A future-proof, crystal clear career plan
+Workshops
 
 ---
 
-### 3. 📃 Expert-Curated Notes
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a3c34950-78b6-4666-a931-0c8fd55de727" />
 
-* Subjects: OS, DBMS, CN, OOP, AI-ML, DSA
-* 150–200 pages per subject
-* Curated using top books, blogs, and experts
-* Easy to read, revision-friendly formatting
+2. 📚 Learn
 
----
+Access expertly curated notes (150–200 pages per subject)
 
-### 4. 🏋️ FlashQuizzes + Cards
+Subjects include: OS, DBMS, CN, OOP, AI/ML, DSA
 
-* Smart flashcards that ask **MCQ-style questions**
-* Each answer shows **intuition-focused explanation**
-* Helps rapid recall & efficient last-minute prep
-* Topic- and subject-wise filtering available
+Based on top university content, blogs, and expert review
 
----
+Includes a notes assistant bot that:
 
-### 5. 📈 Placement Prep Dashboard
+Solves student doubts
 
-* Step-by-step placement plan (DSA, Core, Aptitude)
-* Track solved questions from LeetCode, GFG, etc.
-* Built-in **mock interview module**
-* Resume builder + soft skill guide included
+Saves question-answer pairs into personal notes
+
+Allows manual editing and formatting
 
 ---
 
-### 6. 🚫 Exam Control Room
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/ec6c899a-133e-4355-b8b1-cde8f60963b0" />
 
-* Simulates mid-sem & end-sem exams
-* Features:
+3. 🔹 FlashQuiz
 
-  * Typing-only answers (to build speed)
-  * One-tab allowed
-  * Audio + webcam proctoring
-  * No re-attempt once exited
-* Submissions checked for **logic clarity & core understanding**
+Intelligent flashcards for rapid revision
 
----
+MCQs per subject/topic
 
-### 7. 🙏 Emotional + Life Support Bot
+Options + answer explanation that builds intuition
 
-* Like a friend / elder / parent
-* Helps with:
-
-  * Relationship guidance
-  * Mental burnout
-  * Time management
-  * Fitness & sleep
-  * Startup / money advice
-* Brutally honest + empathetic
+Tracks quiz progress and mastery level
 
 ---
 
-### 8. 💼 Real-time Placement Section
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/89f2033b-49f6-4649-90c7-e334e87edc4b" />
 
-* Aggregates latest **off-campus job listings**
-* Compare companies by:
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/95c7c81b-5957-48cc-ad7d-c4385abf842b" />
 
-  * Salary
-  * Work culture
-  * Growth
-  * Location
-* Upload resume & get live feedback
+4. 🌟 Career Guidance
+
+A chat and workflow-based module that helps students discover and plan careers:
+
+General Chat Mode: Ask anything career-related
+
+Discovery Workflow:
+
+Suggests trending career domains
+
+Student selects one
+
+LLM performs deep research: skills, roles, salaries, demand
+
+One-click roadmap generation
+
+Roadmap Generation Output:
+
+PDF 1: Flowchart using Mermaid.js (can be visualized in draw.io)
+
+PDF 2: Step-by-step roadmap with tools, timelines, and milestones
 
 ---
 
-## 🏆 Why We Built CSAcademy
+<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/fc53f32c-74ba-4013-ac45-706739882a8c" />
 
-> "We saw hundreds of CSE students around us struggling with clarity, consistency, and confidence. So we built the tool we wish we had: An AI mentor that doesn't just give answers, but actually guides your future."
+5. 🙏 Personal Support
+
+A dedicated personal and emotional support bot
+
+Helps with:
+
+Relationship issues
+
+Time & money management
+
+Mental health & burnout
+
+Fitness & lifestyle
+
+Startup & life guidance
+
+Acts like a brutally honest friend or elder
 
 ---
 
-## 💡 Future Scope
+![WhatsApp Image 2025-07-13 at 11 26 40_b365e1c7](https://github.com/user-attachments/assets/bc99cdb6-4968-443c-9b15-140ea98bfc06)
 
-* Add voice interaction
-* Add resume scoring using OpenAI
-* Collaborative peer groups
-* Chrome extension for in-browser flashcards
-* Connect with real mentors
+![WhatsApp Image 2025-07-13 at 11 26 53_c7bb6775](https://github.com/user-attachments/assets/410b7bd7-24d8-4350-9033-b0d12446bc95)
+
+6. 💼 Placement Prep
+
+A full-stack dashboard for placement readiness:
+
+DSA progress tracker (LeetCode, GFG, etc.)
+
+Core subject guides
+
+Aptitude test series
+
+Resume builder with optimization feedback
+
+Soft skill & interview prep modules
+
+Mock interviews scheduler
+
+![WhatsApp Image 2025-07-13 at 11 27 25_f88e3a32](https://github.com/user-attachments/assets/99046d35-b2a2-4fce-975f-36f6b66907c7)
 
 ---
 
-## 🙌 Thank You!
+<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/e92bbcbb-3772-473b-abae-57bb459713e1" />
+
+7. ✍️ Exams
+
+Simulated examination module:
+
+Mid-sem and end-sem assessments
+
+Conducted with proctoring (audio + webcam)
+
+Tab-switch limit enforced
+
+Strict one-attempt policy
+
+Typing-based answers to build real exam habits
+
+Evaluated based on logic and depth, not just keywords
+
+8. 📈 Placements
+
+Job discovery and application management section:
+
+Live off-campus job feed
+
+Company comparison by:
+
+Salary
+
+Work culture
+
+Career growth
+
+Resume upload and real-time feedback
+
+Event scheduler for interviews, job deadlines
+
+🎓 Student Journey Summary
+
+Sign up and access curated content
+
+Use bot for help and notes
+
+Take quizzes and revise
+
+Get career clarity through guided exploration
+
+Download personalized roadmaps
+
+Get personal guidance when stuck
+
+Prepare for placements step-by-step
+
+Take practice exams
+
+Track job opportunities and apply smartly
+
+💡 Vision & Purpose
+
+To transform CSE education by combining curated learning, AI-powered clarity, real-world preparation, and emotional support into a single intelligent platform.
+
+We're solving the gap between content access, career clarity, and confident execution — something students desperately need today.
+
+💡 Future Scope
+
+Voice-based assistant
+
+Resume scoring using OpenAI's eval tools
+
+Collaborative study groups
+
+AI-generated project review
+
+Integration with career mentors and experts
+
+🙌 Thank You!
 
 If you liked CSAcademy, drop a star, subscribe to the demo video, and show us some ❤️ at the hackathon!
 
