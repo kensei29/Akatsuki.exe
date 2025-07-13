@@ -28,7 +28,7 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 | AI Framework | LangChain, LangGraph |
 | LLMs | Mistral 7B, LLaMA 3, CodeLLaMA (via HuggingFace) |
 | Tools | LangChain Tools (web search), Mermaid.js |
-| Memory | ConversationSummaryMemory (LangChain) |
+| Memory | ConversationSummaryMemory (LangChain), FAISS |
 | Others | dotenv, Pydantic, Serper API, etc |
 
 ---
