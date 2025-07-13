@@ -6,9 +6,9 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 ### 📅 Hackathon Submission by:
 
-* **Ved Rathi** [LinkedIn →](https://www.linkedin.com/in/ved-rathi)
-* **Team Member 2** [LinkedIn →](https://www.linkedin.com/in/member2)
-* **Team Member 3** [LinkedIn →](https://www.linkedin.com/in/member3)
+* **Vedant Patel** [LinkedIn →](https://www.linkedin.com/in/vedant-patel-machine-learning/)
+* **Rudra Narola** [LinkedIn →](https://www.linkedin.com/in/rudranarola/)
+* **Team Member 3** [LinkedIn →](https://www.linkedin.com/in/prit-shah-b1b58a286/)
 
 ### 🎥 Demo / Tutorial:
 
@@ -20,13 +20,13 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 
 | Layer        | Technology                                       |
 | ------------ | ------------------------------------------------ |
-| Frontend     | React.js, Tailwind CSS                           |
+| Frontend     | Next.js, Tailwind CSS                            |
 | Backend      | FastAPI                                          |
 | AI Framework | LangChain, LangGraph                             |
 | LLMs         | Mistral 7B, LLaMA 3, CodeLLaMA (via HuggingFace) |
 | Tools        | LangChain Tools (web search), Mermaid.js         |
 | Memory       | ConversationSummaryMemory (LangChain)            |
-| Others       | dotenv, Pydantic, Serper API                     |
+| Others       | dotenv, Pydantic, Serper API, etc                |
 
 ---
 
@@ -41,6 +41,8 @@ An **AI-powered intelligent learning and career guidance platform for CSE studen
 * Get mentorship for emotional & personal struggles
 
 All packed into a **single intelligent assistant-led platform**.
+
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/012c9653-a90e-4d36-a9b2-ec64ffef54cc" />
 
 ---
 
