@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { useApp } from '@/contexts/AppContext';
-import TopNavigation from './TopNavigation';
-import Sidebar from './Sidebar';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useApp } from "@/contexts/AppContext";
+import TopNavigation from "./TopNavigation";
+import Sidebar from "./Sidebar";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -16,17 +16,28 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const router = useRouter();
 
   useEffect(() => {
-    if (!state.isAuthenticated) {
-      router.push('/auth');
+    // Only redirect if auth state is initialized and user is not authenticated
+    if (state.isInitialized && !state.isAuthenticated) {
+      router.push("/auth");
     }
-  }, [state.isAuthenticated, router]);
+  }, [state.isAuthenticated, state.isInitialized, router]);
 
   const handleSidebarToggle = () => {
     setSidebarCollapsed(!sidebarCollapsed);
-    dispatch({ type: 'TOGGLE_SIDEBAR' });
+    dispatch({ type: "TOGGLE_SIDEBAR" });
   };
 
-  if (!state.isAuthenticated) {
+  // Show loading spinner while auth state is being initialized
+  if (!state.isInitialized) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+      </div>
+    );
+  }
+
+  // Show loading spinner if auth is initialized but user is not authenticated (during redirect)
+  if (state.isInitialized && !state.isAuthenticated) {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
@@ -36,17 +47,20 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
   return (
     <div className="flex h-screen bg-slate-50 dark:bg-slate-900">
-      <Sidebar 
-        collapsed={sidebarCollapsed} 
+      <Sidebar
+        collapsed={sidebarCollapsed}
         onToggle={handleSidebarToggle}
         className="hidden lg:flex"
       />
-      
+
       {/* Mobile sidebar overlay */}
       {!sidebarCollapsed && (
-        <div className="lg:hidden fixed inset-0 z-40 bg-black bg-opacity-50" onClick={handleSidebarToggle}>
-          <Sidebar 
-            collapsed={false} 
+        <div
+          className="lg:hidden fixed inset-0 z-40 bg-black bg-opacity-50"
+          onClick={handleSidebarToggle}
+        >
+          <Sidebar
+            collapsed={false}
             onToggle={handleSidebarToggle}
             className="absolute left-0 top-0 h-full z-50"
           />
@@ -55,9 +69,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
       <div className="flex-1 flex flex-col overflow-hidden">
         <TopNavigation onMenuToggle={handleSidebarToggle} />
-        <main className="flex-1 overflow-auto">
-          {children}
-        </main>
+        <main className="flex-1 overflow-auto">{children}</main>
       </div>
     </div>
   );
